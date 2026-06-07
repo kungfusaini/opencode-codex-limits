@@ -1,6 +1,6 @@
 {
   "name": "@kungfusaini/opencode-codex-limits",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode TUI plugin for viewing Codex 5-hour and weekly usage limits in a popup.",
   "type": "module",
   "license": "MIT",
