@@ -28,7 +28,7 @@
   },
   "main": "./src/index.js",
   "bin": {
-    "opencode-codex-limits": "./bin/codex-limits.js"
+    "opencode-codex-limits": "bin/codex-limits.js"
   },
   "files": [
     "bin/",
