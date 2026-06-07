@@ -1,0 +1,46 @@
+{
+  "name": "@kungfusaini/opencode-codex-limits",
+  "version": "0.1.0",
+  "description": "OpenCode TUI plugin for viewing Codex 5-hour and weekly usage limits in a popup.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sumeet Saini",
+  "homepage": "https://github.com/kungfusaini/opencode-codex-limits#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kungfusaini/opencode-codex-limits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kungfusaini/opencode-codex-limits/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "codex",
+    "chatgpt",
+    "openai",
+    "limits",
+    "quota",
+    "tui"
+  ],
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "bin": {
+    "opencode-codex-limits": "./bin/codex-limits.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check src/codex-limits.js && node --check src/index.js && node --check bin/codex-limits.js",
+    "limits": "node bin/codex-limits.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
